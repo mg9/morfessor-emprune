@@ -1,0 +1,10 @@
+morfessor \
+    --em-prune freq_substr.1M \
+    -t wordlist.tur \
+    --save-segmentation emprune.model \
+    --traindata-list \
+    --prune-criterion mdl \
+    --lateen prune \
+    --prune-proportion 0.2 
+
+
